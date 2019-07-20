@@ -1,2 +1,4 @@
-# carLeaseSystem
-本项目是基于JavaWeb技术的仿照携程租车模块编写的汽车租赁系统。技术运用到了servlet+jsp+jdbc，系统大量运用到了Ajax技术，且用的原生Ajax
+# 基于JavaWeb仿携程租车模块开发的汽车租赁系统
+# 开发工具
+eclipse
+# 开发环境
