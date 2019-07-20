@@ -1,0 +1,220 @@
+*{
+    margin:0;
+    padding:0;
+}
+#header{
+    height:80px;
+    background-color: rgb(57, 131, 229);
+    border-bottom: 1px solid gray;
+}
+#header h1{
+    width: 600px;
+    height:70px;
+    font-size:30px;
+    color:white;
+    line-height: 70px;
+    margin-left: 30px;
+    float:left;
+}
+#header li{
+    float:left;
+    list-style: none;
+}
+.header_a{
+    float:right;
+}
+.a1{
+    display: inline-block;
+    width:170px;
+    height:80px;
+    line-height: 80px;
+    
+    /* border:1px solid black; */
+    text-align: center;
+    color:white;
+    font-size:17px;
+    text-decoration: none;
+}
+
+.lr_a{
+    display: inline-block;
+    margin-right: 50px;
+    width:170px;
+    height:80px;
+    line-height: 80px;
+    background-color: orange;
+    text-align: center;
+    
+}
+.lr_b{
+	line-height:80px;
+	color:white;
+}
+.lr_a a{
+    color: white;
+    font-size:17px;
+    text-decoration: none;
+}
+.lr_a a:hover{
+    text-decoration: underline;
+}
+.a1:hover{
+    background-color: blue;
+}
+.lr_a:hover{
+    background-color: orangered;
+}
+#content{
+    margin-top:40px;
+    margin-left:85px;
+}
+.form_info{
+    width:465px;
+    height:362px;
+    border:4px solid rgb(57, 131, 229);
+    float:left;
+}
+.image{
+    width:710px;
+    height:370px;   
+    background-color: aquamarine;
+    float:left;
+}
+.form_info h3{
+    height:60px;
+    margin-left: 70px;
+    font-size:23px;
+    line-height: 60px;
+    font-weight: normal;
+    color:rgb(18, 136, 237);
+}
+.form_info .formStyle{
+    margin-left: 40px;
+    font-size: 14px;
+}
+.form_info select,input{
+    width:312px;
+    height:30px;
+    box-sizing: border-box; /*表明width的宽度为内容本身宽度+padding+border（高度一样）*/
+}
+.form_info button{
+    width:192px;
+    height:35px;
+    margin-left:90px; 
+}
+/* #content .image img{
+    width:100%;
+    height:100%;
+} */
+.pattern{
+    width:385px;
+    height:536px;
+    margin-top: 27px;
+    float: left;
+}
+.pattern h3{
+    font:normal 23px "微软雅黑";
+    color:black; 
+}
+.pattern .p1{
+    width:378px;
+    height:68px;
+    border: 1px solid rgb(204, 204, 204);
+    margin-top:10px;
+}
+.pattern .p2{
+    width:378px;
+    height:88px;
+    border: 1px solid rgb(204, 204, 204);
+    margin-top:10px;
+    background-color: rgb(245, 245, 245);
+}
+.pattern .p2 img{
+    float:left;
+    margin-top:23px;
+}
+.pattern .p2 .i1{
+    margin-left:13px;
+}
+.pattern .p2 .i2{
+    margin-left:25px;
+}
+
+.pattern .p3 h1{
+    font:normal 23px "微软雅黑";
+    color:black; 
+    margin-top: 20px;
+}
+.pattern .p3 i{
+   content: url(../images/对勾.png);
+   display: inline-block;
+   float: left;
+}
+.pattern .p3 h2{
+    
+    font:normal 21px "微软雅黑";
+    color:rgb(82, 140, 1); 
+    margin-top: 20px;
+}
+.pattern .p3 p{
+    
+    font:normal 12px "微软雅黑";
+    color:rgb(136, 136, 136); 
+}
+.pattern .p3{
+    width: 363px;
+    border:1px solid rgb(204, 204, 204);
+    margin-top:10px;
+    
+    padding-left:15px;
+    padding-bottom: 15px;
+}
+#content .carList{
+    width:780px;
+    height:500px;
+    margin-top: 30px;
+    margin-left:25px;
+    float:left;           
+}
+.carList .carList_ul{
+    width:780px;
+    height:30px;
+    border-bottom: 2px solid rgb(85, 153, 221);
+    padding-bottom: 10px;
+    margin-bottom:20px;
+}
+.carList .carList_ul h3{
+    /* float:left; */
+    font:normal 23px "微软雅黑";
+    color:black; 
+    margin-left:15px;
+}
+.car_info{
+    /* border:1px solid black; */
+}
+.car_info td{
+    width:255px;
+    height:90px;
+    border-right:1px solid rgb(225,225,225);
+    border-bottom:1px dotted rgb(177,177,177);
+}
+.car_info td .p1{
+    margin-top:10px;
+    font:normal bold 12px "微软雅黑";
+}
+.car_info td .p2{
+    color:rgb(177,177,177);
+    font:normal  12px "微软雅黑";
+}
+.car_info td .p3{
+    font:normal 13px "微软雅黑";
+} 
+.car_info td span{
+    font:normal 13px "微软雅黑";
+    color:orange;
+} 
+.car_info img{
+    width:115px;
+    height:70px;
+    float:left;
+}

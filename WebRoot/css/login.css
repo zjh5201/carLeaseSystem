@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+}
+.bg{
+    position: absolute;
+    /*相对于最近一个实现了position的元素进行定位，也就是body*/
+    width:100%;
+    height:100%;
+    background-image: url(../images/loginBg1.jpg);
+    /* background-color: aqua; */
+    z-index: -1;
+}
+
+.login{
+    width:35%;
+    height:65%;
+    background-color:white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:140px;
+    /* opacity: 0.7; */
+    border:1px solid grey;
+    border-radius:2%;
+}
+.box{
+    width:205px;
+    height:220px;
+    margin:90px auto;
+    
+    /* background-color: aquamarine; */
+}
+.box p{
+    
+    height:30px;
+    font-size: 20px;
+    font-family: "微软雅黑";
+    color:black;
+    line-height: 30px;
+    /* font-weight: bold; */
+    border-bottom:1px solid teal;
+}
+.box input{
+    width:200px;
+    height:35px;
+    border-radius:4px;
+    outline: none;
+    border:1px solid gray;
+}
+.i1{
+    margin-top:30px;
+}
+.p1{
+    display: inline-block;
+    margin-left: 34px;
+    color:black;
+    font-size: 13px;
+}
+.box button{
+    color:white;
+    font-size:16px;
+    font-weight: bold;
+    width:100px;
+    height:40px;
+    border:0px;
+    background-color:rgb(116, 205, 255);
+    border-radius: 2px;
+    margin-left: 50px;
+    margin-top: 20px;
+}

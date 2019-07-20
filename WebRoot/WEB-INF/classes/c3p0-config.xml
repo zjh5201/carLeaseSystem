@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<default-config>
+		<!-- 配置四大参数，jdbcUrl、driverClass、user、password -->
+		<property name = "jdbcUrl">jdbc:mysql://localhost:3306/carleasesystem</property>
+		<property name = "driverClass">com.mysql.jdbc.Driver</property>
+		<property name = "user">root</property>
+		<property name = "password">root</property>
+		<property name = "acquireIncrement">3</property>
+		<property name = "initialPoolSize">5</property>
+		<property name = "minPoolSize">2</property>
+		<property name = "maxPoolSize">8</property>
+	</default-config>
+</c3p0-config>

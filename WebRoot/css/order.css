@@ -1,0 +1,234 @@
+*{
+    margin:0;
+    padding:0;
+}
+#header{
+    height:80px;
+    background-color: rgb(57, 131, 229);
+    border-bottom: 1px solid gray;
+}
+body{
+    background-color: rgb(244, 244, 244);
+}
+#header h1{
+    width: 600px;
+    height:70px;
+    font-size:30px;
+    color:white;
+    line-height: 70px;
+    margin-left: 30px;
+    float:left;
+}
+#content{
+    width:1200px;
+    height:1500px;
+    margin:30px auto;
+    
+}
+#content .left{
+    width:795px;
+    height:1500px;
+    float: left;
+    
+}
+#content .right{
+    width:390px;
+    height:1500px;
+    float: left;
+    margin-left: 15px;
+}
+#content .left .user{
+    width:100%;
+    height:293px;
+    border:1px solid rgb(230, 230, 230);
+    background-color: white;
+}
+#content .left .rentInfo{
+    width:100%;
+    height:380px;
+    border:1px solid rgb(230, 230, 230);
+    margin-top:18px;
+    background-color: white;
+}
+#content .left .info{
+    width:100%;
+    height:350px;
+    border:1px solid rgb(230, 230, 230);
+    margin-top:18px;
+    background-color: white;
+}
+#content .right .carInfo{
+    width:100%;
+    height:578px;
+    border:1px solid rgb(230, 230, 230);
+    background-color: white;
+}
+#content .right #m1{
+    width:100%;
+    height:572px;
+    border:1px solid rgb(230, 230, 230);
+    margin-top:20px;
+    background-color: white;
+}
+#content .right #m2{
+    width:390px;
+    height:572px;
+    border:1px solid rgb(230, 230, 230);
+    background-color: white;
+    position: fixed;
+    top:0px;
+    right:73px;
+
+}
+#content .top{
+    width:100%;
+    height: 68px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    background-color: white;
+}
+#content .top .s1{
+    border-left: 4px solid rgb(37, 119, 227);
+    display: inline;
+    line-height: 68px;
+    background-color: white;
+}
+#content .moneyExplain{
+    width:328px;
+    height:140px;
+    margin:20px auto;
+}
+#content .totalmoney{
+    width:328px;
+    height:140px;
+    border-top:2px solid rgb(221, 221, 221);
+    border-bottom:2px solid rgb(221, 221, 221);
+    margin:20px auto;
+}
+#content .top .s1 .span1{
+    font-size:23px;
+}
+#content .left .user .top .s1 .span2{
+    font-size:14px;
+    color:rgb(153, 153, 153);
+}
+#content .left .user .s2{
+    width:80%;
+    height:50%;
+    margin:40px 30px;
+}
+#content .left .user .s2 div{
+    float: left;
+    margin-right: 30px;
+    margin-left:20px;
+    margin-top:20px;
+    font-size:12px;
+    color:rgb(153, 153, 153);
+    background-color: white;
+}
+#content .left .user .s2 input{
+    width:210px;
+    height:28px;
+    border:0px;
+    border-bottom: 1px solid rgb(223, 223, 225);
+}
+#content .left .rentInfo .fuwu{
+    margin-top:40px;
+    width:100%;
+    height:80px;
+    background-color: white;
+}
+#content .left .rentInfo .fuwu .f1{
+    float: left;
+    margin-left:40px;
+    background-color: white;
+}
+#content .left .rentInfo .fuwu .f1 img{
+    width:40px;
+}
+#content .left .rentInfo .fuwu .f2{
+    float: left;
+    margin-left:20px;
+}
+#content .left .rentInfo .fuwu .p1{
+    font-size:20px;
+}
+#content .left .rentInfo .fuwu .p2{
+    font-size:15px;
+    color:rgb(102, 102, 102);
+}
+#content .left .rentInfo .fuwu .f3{
+    float: left;
+    margin-left: 130px;
+    margin-top:10px;
+    color:rgb(255, 102, 49);
+    font-size:25px;
+}
+#content .left .pay{
+    width:100%;
+    height:325px;
+    margin-bottom:20px;
+    margin-top:20px;
+    background-color: white;
+    border:1px solid rgb(230, 230, 230);
+}
+#content .left .pay .allMoney{
+    width:40%;
+    height:50px;
+    border:2px solid rgb(37, 119, 227);
+    margin-top:25px;
+    margin-left:25px;
+    
+}
+#content .left .pay #goPay1{
+    width:795px;
+    height:93px;
+    border-top:1px solid rgb(230, 230, 230);
+    border-bottom:1px solid rgb(230, 230, 230);
+    position:fixed;
+    top:545px;
+    left:75px;
+    background-color: white;
+}
+#content .left .pay #goPay2{
+    width:795px;
+    height:93px;
+    border-top:2px solid rgb(230, 230, 230);
+    border-bottom:2px solid rgb(230, 230, 230);
+    margin-top:80px;
+}
+#content .left .pay .font{
+    font-size:16px;
+    line-height: 93px;
+}
+#content .left .pay .font .btn{
+    width:200px;
+    height:50px;
+    background-color: rgb(255, 153, 19);
+    border:0px;
+    color:white;
+    font-family: "微软雅黑";
+    font-size:18px;
+    margin-left: 250px;
+}
+#content .left .pay .font .btn:hover{
+ 
+    background-color: rgb(210, 125, 15);
+
+}
+#content .left .info .i1{
+    width:100%;
+    height:70px;
+    margin-left: 35px;
+}
+#content .left .info .i2{
+    margin-top:10px;
+}
+#content .left .info .i1 .p1{
+    font-size:17px;
+    margin-bottom: 8px;
+}
+#content .left .info .i1 .p2{
+    font-size:14px;
+    color:rgb(102, 102, 102);
+    margin-bottom: 8px;
+}

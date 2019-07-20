@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+}
+#header{
+height:80px;
+background-color: white;
+border-bottom: 2px solid rgb(25, 116, 185);
+}
+#header li{
+    float:left;
+    list-style: none;
+}
+.header_a{
+    float:right;
+}
+.header_a a{
+    line-height: 80px;
+    margin-right:100px;
+    font-family: "微软雅黑";
+    color:rgb(14, 38, 68);
+    font-size:18px;
+    text-decoration: underline;
+}
+#header h1{
+    width: 600px;
+    height:70px;
+    font-size:30px;
+    color:rgb(38, 119, 227);
+    line-height: 70px;
+    margin-left: 130px;
+    float:left;
+}
+#content{
+    width:1200px;
+    margin:20px auto;
+}
+#content tr{
+    width:1010px;
+}
+#content th{
+    width:200px;
+    height:20px;
+    font-size:17px;
+    font-weight: bold;
+}
+#content td{
+    width:200px;
+    height:50px;
+    text-align: center;
+}
+.thead{
+    height:30px;
+    background-color: rgb(246, 246, 246);
+}
+#content .list{
+    list-style: none;
+    border:1px solid rgb(190, 211, 238);
+    margin:10px auto;
+}
+#content .list h3{
+    height:33px;
+    font-weight: normal;
+    background-color: rgb(234, 242, 254);
+    font-size: 14px;
+    line-height: 33px;
+}
+#footer{
+	width:1200px;
+	height:60px;
+	margin:20px auto;
+	border:1px solid black;
+}
+.page{
+	width:350px;
+	height:60px;
+	float:right;
+}
+#footer span{
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<citys>
+	<city name="北京">
+		<area>东城区</area>
+		<area>西城区</area>
+		<area>崇文区</area>
+		<area>宣武区</area>
+		<area>朝阳区</area>
+		<area>丰台区</area>
+	</city>
+	<city name="上海">
+		<area>徐汇区</area>
+		<area>静安区</area>
+		<area>崇文区</area>
+		<area>宝山区</area>
+		<area>虹口区</area>
+		<area>金山区</area>
+	</city>
+	<city name="天津">
+		<area>红桥区</area>
+		<area>南开区</area>
+		<area>河东区</area>
+		<area>和平区</area>
+		<area>河北区</area>
+		<area>河西区</area>
+	</city>
+	<city name="邯郸">
+		<area>复兴区</area>
+		<area>邯山区</area>
+		<area>丛台区</area>
+		<area>高开区</area>
+		<area>邯郸县</area>
+		<area>魏县</area>
+	</city>
+	<city name="石家庄">
+		<area>桥西区</area>
+		<area>新华区</area>
+		<area>裕华区</area>
+		<area>长安区</area>
+		<area>元氏县</area>
+		<area>平山县</area>
+	</city>
+	<city name="秦皇岛">
+		<area>海港区</area>
+		<area>抚宁区</area>
+		<area>北戴河区</area>
+		<area>山海关区</area>
+		<area>昌黎县</area>
+		<area>卢龙县</area>
+	</city>	
+</citys>

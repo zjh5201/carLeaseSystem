@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>CarLeaseSystem</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <filter>
+  	<filter-name>AllFilter</filter-name>
+  	<filter-class>cn.zjh.carLeaseSystem.filter.URLFilter</filter-class>
+  </filter>
+  <servlet>
+    <description></description>
+    <display-name>UserServlet1</display-name>
+    <servlet-name>UserServlet1</servlet-name>
+    <servlet-class>cn.zjh.carLeaseSystem.user.web.servlet.UserServlet1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CityServlet</servlet-name>
+    <servlet-class>cn.zjh.carLeaseSystem.user.CityArea.CityServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AreaServlet</servlet-name>
+    <servlet-class>cn.zjh.carLeaseSystem.user.CityArea.AreaServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OrderServlet</servlet-name>
+    <servlet-class>cn.zjh.carLeaseSystem.order.web.servlet.OrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CarServlet</servlet-name>
+    <servlet-class>cn.zjh.carLeaseSystem.car.web.servlet.CarServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>WorkerServlet</servlet-name>
+    <servlet-class>cn.zjh.carLeaseSystem.worker.web.servlet.WorkerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OrderListServlet</servlet-name>
+    <servlet-class>cn.zjh.carLeaseSystem.order.web.servlet.OrderListServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+   <filter-mapping>
+  	<filter-name>AllFilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+   
+  <servlet-mapping>
+    <servlet-name>UserServlet1</servlet-name>
+    <url-pattern>/UserServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CityServlet</servlet-name>
+    <url-pattern>/CityServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AreaServlet</servlet-name>
+    <url-pattern>/AreaServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/OrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CarServlet</servlet-name>
+    <url-pattern>/CarServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WorkerServlet</servlet-name>
+    <url-pattern>/WorkerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderListServlet</servlet-name>
+    <url-pattern>/OrderListServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

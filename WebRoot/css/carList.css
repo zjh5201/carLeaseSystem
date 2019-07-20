@@ -1,0 +1,363 @@
+*{
+    margin:0;
+    padding:0;
+}
+#header{
+height:80px;
+background-color: rgb(57, 131, 229);
+border-bottom: 1px solid gray;
+}
+#header h1{
+width: 600px;
+height:70px;
+font-size:30px;
+color:white;
+line-height: 70px;
+margin-left: 30px;
+float:left;
+}
+#header li{
+float:left;
+list-style: none;
+}
+.header_a{
+float:right;
+}
+.a1{
+display: inline-block;
+width:170px;
+height:80px;
+line-height: 80px;
+
+/* border:1px solid black; */
+text-align: center;
+color:white;
+font-size:17px;
+text-decoration: none;
+}
+
+.lr_b{
+	line-height:80px;
+	color:white;
+}
+.lr_a{
+display: inline-block;
+margin-right: 50px;
+width:170px;
+height:80px;
+line-height: 80px;
+
+background-color: orange;
+text-align: center;
+
+}
+.lr_a a{
+color: white;
+font-size:17px;
+text-decoration: none;
+}
+.lr_a a:hover{
+text-decoration: underline;
+}
+.a1:hover{
+background-color: blue;
+}
+.lr_a:hover{
+background-color: orangered;
+}        
+
+#content .c1{
+    width:100%;
+    height:120px;
+    background-color: rgb(231, 237, 245);
+}
+.rent,.return{
+    float:left;
+}
+.rentTime,.returnTime{
+    float:right;
+}
+#content .rent:before{
+    display: table;     
+    content:"";
+}
+#content .seek{
+    float:right;
+}
+#content .p1{
+    margin-left:20px;
+    margin-top:15px;
+    margin-bottom:10px;
+}
+.errtd1{
+	width:500px;
+	height:300px;
+	border:1px solid black;
+	text-align:center;
+}
+.errp1{
+	font-size:23px;
+	font-family:"宋体";
+	font-weight:bold;
+	margin-top:10px;
+	margin-bottom:8px;
+}
+.errp2{
+	font-size:14px;
+	color:gray;
+}
+.errimg{
+	display:block;
+	width:100px;
+	height:100px;
+	margin:0px auto;
+}
+#content .p2{
+    margin-top:15px;
+    margin-bottom: 10px;
+}
+#content #rentLocat,#returnLocat{
+    width:90px;
+    height:40px;
+    margin-left:20px;
+    border:0px;
+}
+#content #rentzone,#rentArea{
+    width:140px;
+    height:40px;
+    border:0px;
+}
+#content #rentzone,#returnArea{
+    width:140px;
+    height:40px;
+    border:0px;
+}
+#content .i1,.i2{
+    width:300px;
+    height:40px;
+    border:0;
+}
+#content .i2{
+    margin-right:50px;
+}
+#content .i1{
+    margin-right: 20px;
+}
+#content .seek{
+    width:70px;
+    height:40px;
+    margin-top:40px;
+    margin-right: 50px;
+}
+#content .carType{
+    width:1000px;
+    height:300px;
+    margin:5px auto;
+    margin-bottom:30px;
+}
+#content .list{
+    width:1000px;
+    height:103px;
+    margin-top:10px;
+}
+#content .carType li{
+    width:117px;
+    height:100px;
+    float:left;
+    list-style: none;
+    padding-top:2px;
+    cursor:pointer;
+    /* border:1px solid; */
+}#content .carType li:hover{
+    background-color:rgb(238,243,249);
+}
+#content .carType p{
+    font-size:14px;
+    color:black;
+}
+#content .carType a:before{
+    display: table;
+    content:"";
+}
+#content .carType a:link{
+    display: block;
+    text-decoration: none;
+    color:black;
+    width:117px;
+    height:100px;
+}
+#content .carType a:visited{
+    border:0px;
+}
+#content .carType a:hover{
+    background-color: rgb(238,243,249);
+}
+#content .carType a:active{
+    border:1px solid peru;
+}
+#content .carType p{
+    font-size:14px;
+    margin-top: 16px;
+    margin-left:40px;
+}
+#content #u1 li{
+    margin-left:2px;
+    margin-right:2px;
+}
+#content .carType img{
+    margin-top: 15px;
+    margin-left:33px;
+}
+#content .carType .hot{
+    margin-top: 12px;
+    margin-left: 38px;
+}
+#content .carType .carCompany{
+    width:1000px;
+    height:165px;
+    margin-top:20px;
+    border-bottom:1px solid rgb(236, 236, 236);
+}
+#content .carType .carCompany table td{
+    width:100px;
+    height:40px;
+}
+#content .carCompany .mark{
+    color:rgb(179, 153, 153);
+}
+#changed_info{
+    width:1200px;
+    height:600px;
+    margin-left: 88px;
+    marhin-top:50px;
+    border-top:1px solid rgb(236,236,236);
+}
+#changed_info .cars_info{
+    float: left;
+    width:870px;
+}
+#changed_info .question{
+    margin-top: 50px;
+    margin-left:17px;
+    float: left;
+    width:310px;
+    height:500px;
+}
+#changed_info .choose{
+    margin-top: 20px;
+    width:140px;
+    height: 50px;
+}
+#changed_info .choose select{
+    width:140px;
+    height:50px;
+    font-size:14px;
+}
+#changed_info .choose select option{
+    width:140px;
+    height:50px;
+} 
+#changed_info .cars_info .cars_list{
+    margin-top:13px;
+    width:870px;
+    height:500px;
+}
+#changed_info .cars_info .cars_list:before{
+    content: "";
+    display: table;
+}
+#changed_info .cars_info .cars_list table td{
+    width:870px;
+    height:212px;
+    border-top:1px solid rgb(224,224,224);
+}
+#changed_info .cars_info .cars_list ._img{
+    width:202px;
+    height:130px;
+    float: left;
+}
+#changed_info .cars_info .cars_list .common{
+    font-size:20px;
+    font-weight:bold;
+}
+#changed_info .cars_info .cars_list .gear{
+    font-size:14px;
+    margin-top:5px;
+}
+#changed_info .cars_info .cars_list ._info{
+    width:220px;
+    height:190px;
+    float: left;
+    margin-left:55px;
+}
+#changed_info .cars_info .cars_list .ccname{
+	font-size:21px;
+	font-family:"微软雅黑";
+	margin:15px 0;
+	
+}
+#changed_info .cars_info .cars_list .ccphone{
+	font-size:14px;
+	font-family:"微软雅黑";
+	color:rgb(102,102,102);
+	margin-bottom:10px;	
+}
+#changed_info .cars_info .cars_list .price{
+    color:rgb(255,102,0);
+    font-size:25px;
+    font-weight:bold;
+    line-height:120px;
+    float:right;
+}
+#changed_info .cars_info .cars_list ._money span{
+   font-size:16px;
+}
+#changed_info .cars_info .cars_list ._button{
+    width:140px;
+    height:190px;
+    float: right;
+}
+#changed_info .cars_info .cars_list ._button a{
+	display:block;
+	width:74px;
+	height:32px;
+	border:0;
+	background-color:rgb(255,153,19);
+	text-align:center;
+	line-height:32px;
+	border-radius: 0.5ch;
+	color:white;
+	cursor:pointer;
+	margin:40px auto;
+	text-decoration: none;
+}
+#changed_info .cars_info .cars_list ._button a:hover{
+	background-color:rgb(240,134,0);
+}
+
+._xuanxiang{
+	width:1000px;
+	height:50px;
+	margin-top:10px;
+	
+}
+._div{
+	width:1000px;
+	height:50px;
+	border-top:1px solid rgb(236,236,236);
+}
+#optional{
+	width:200px;
+	height:30px;
+	margin-left:400px;
+	border:0;
+	color:rgb(102,102,122);
+	background-color:white;
+	border-bottom:1px solid rgb(236,236,236);
+	border-left:1px solid rgb(236,236,236);
+	border-right:1px solid rgb(236,236,236);
+}
+#optional:hover{
+	color:rgb(37,119,227);
+}
+
